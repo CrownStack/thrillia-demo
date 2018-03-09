@@ -1,0 +1,39 @@
+{
+    "status": "success",
+    "error": {},
+    "data": [
+        {
+            "name": "Awesome Sky Diving",
+            "address_city": "New Delhi",
+            "address_state": "Delhi",
+            "address_zip": 123,
+            "website": "http://crownstack.com",
+            "phone": 1234567890,
+            "activities": [
+                "SkyDiving"
+            ]
+        },
+        {
+            "name": "Awesome Water Support",
+            "address_city": "New Delhi",
+            "address_state": "Delhi",
+            "address_zip": 123,
+            "website": "http://crownstack.com",
+            "phone": 1234567890,
+            "activities": [
+                "Water support"                
+            ]
+        },
+        {
+            "name": "Awesome Skating",
+            "address_city": "New Delhi",
+            "address_state": "Delhi",
+            "address_zip": 123,
+            "website": "http://crownstack.com",
+            "phone": 1234567890,
+            "activities": [
+                "Skating"
+            ]
+        }
+    ]
+}
