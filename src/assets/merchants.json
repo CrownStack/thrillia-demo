@@ -4,8 +4,8 @@
     "data": [
         {
             "name": "Awesome Sky Diving",
-            "address_city": "New Delhi",
-            "address_state": "Delhi",
+            "address_city": "New York",
+            "address_state": "NY",
             "address_zip": 123,
             "website": "http://crownstack.com",
             "phone": 1234567890,
@@ -15,8 +15,8 @@
         },
         {
             "name": "Side river Biking",
-            "address_city": "New Delhi",
-            "address_state": "Delhi",
+            "address_city": "New York",
+            "address_state": "NY",
             "address_zip": 123,
             "website": "http://crownstack.com",
             "phone": 1234567890,
@@ -26,8 +26,8 @@
         },
         {
             "name": "Biking and Swiming Tours",
-            "address_city": "New Delhi",
-            "address_state": "Delhi",
+            "address_city": "New York",
+            "address_state": "NY",
             "address_zip": 123,
             "website": "http://crownstack.com",
             "phone": 1234567890,
@@ -38,8 +38,8 @@
         },
         {
             "name": "Kayaking",
-            "address_city": "New Delhi",
-            "address_state": "Delhi",
+            "address_city": "New York",
+            "address_state": "NY",
             "address_zip": 123,
             "website": "http://crownstack.com",
             "phone": 1234567890,
@@ -50,8 +50,8 @@
         },
         {
             "name": "Rock Climbing",
-            "address_city": "New Delhi",
-            "address_state": "Delhi",
+            "address_city": "New York",
+            "address_state": "NY",
             "address_zip": 123,
             "website": "http://crownstack.com",
             "phone": 1234567890,
