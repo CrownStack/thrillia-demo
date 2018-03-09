@@ -5,6 +5,11 @@ body {
 
 .navbar {
     background: #fff !important;
+    border-bottom: 1px solid #eee !important;
+}
+
+.list-margin-top {
+    margin-top: 20px;
 }
 
 .banner-caption h1,
@@ -37,7 +42,7 @@ body {
 }
 
 .banner-search-main .form-group .search-btn button {
-    background: cadetblue;
+    background: #1295cd;
     color: #fff;
     outline: none
 }
@@ -74,7 +79,7 @@ body {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     z-index: 3;
 }
 
@@ -102,7 +107,7 @@ body {
 
 .banner-parallax {
     position: relative;
-    height: 600px;
+    height: 400px;
     overflow: hidden;
 }
 
@@ -178,7 +183,7 @@ body {
 }
 
 .navbar-brand {
-    padding: 6px 15px !important;
+    padding: 9px 15px !important;
 }
 
 .small-heading {
@@ -206,36 +211,34 @@ body {
     border: none
 }
 
-.img
-{
+.img {
     width: 100%;
 }
-.padding
-{
+
+.padding {
     padding: 20px;
 }
-h4
-{
+
+h4 {
     font-size: 20px;
     font-weight: 600;
     color: rgb(71, 78, 82);
     padding-left: 10px;
 }
-h6
-{
-   
-    color:#869099;
+
+h6 {
+    color: #869099;
     font-size: 13px;
     line-height: 1.5;
     padding-left: 10px;
 }
-a:hover
-{
+
+a:hover {
     text-decoration: none;
 }
-.border
-{
-    border:1px solid  #e6e6e6;
- border-bottom-right-radius: 10%;
- border-bottom-left-radius: 10%;
+
+.border {
+    border: 1px solid #e6e6e6;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
 }
