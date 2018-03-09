@@ -40,11 +40,12 @@
         <form autocomplete="off" class="form-inline">
           <div class="form-group">
             <div class="search input-search input-icon col-md-9">
-              <input type="text" class="form-control" id="search" placeholder="Search for your next adventure like biking, trekking.." (keyup)='keyUp.next($event)'>
+              <input type="text" class="form-control" id="search" placeholder="Search for your next adventure like biking, trekking.."
+                (keyup)='keyUp.next($event)'>
               <div class="auto-complete">
                 <ul>
                   <li *ngFor="let item of selectedMerchantsList">
-                    <a class="heading">{{item.name}} ,
+                    <a href="{{item.website}}" class="heading">{{item.name}} ,
                       <small class="small-heading">{{item.address_city}}</small> ,
                       <small class="small-heading">{{item.address_state}}</small> ,
                       <small class="small-heading">{{item.address_zip}}</small>
@@ -147,3 +148,14 @@
     </div>
   </div>
 </div>
+<footer>
+  <div id="sub-floor">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center copyright">
+          Copy right for Thrillia © 2018
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
