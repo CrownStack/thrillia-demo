@@ -1,63 +1,172 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Thrillia </title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-</head>
-<body>
-<div class="container-fluid">
-  <div class="row bg">
-<div class="col-md-12">
-        <nav class="navbar navbar-inverse">
-                  <ul class="nav navbar-nav">
-                  <img src="assets/single.png">
-                  </ul>
-                  <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">  LOGIN</a></li>
-                    <li><a href="#"> SIGN-UP</a></li>
-                  </ul>
-              </nav>
-              </div>
-              <div class="col-md-12 margin">
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4">
-                       <img src="assets/Logo.png" class="logo">
-                        <h4 class="text-center">FIND YOUR ADVENTURE</h4>
-                    </div>
-                    <div class="col-md-4"></div>
-              </div>
-              <div class="col-md-12 ">
-                    <div class="col-md-3"></div>
-                    <div class="col-md-6">
-                        <h5 class="text-center">ADRENALINE IS THE ONLY SUPERPOWER THAT HUMAN BEING HAVE </h5>
-                    </div>
-                    <div class="col-md-3"></div>
-              </div>
-              <div class="box">
-                <div class="container-1">
-                    <span class="icon"><i class="fa fa-search"></i></span>
-                    <input type="search" id="search" placeholder="Search..." (keyup)='keyUp.next($event)' />
-                </div>
-              </div>
-              
-              <div class="col-md-12 bottom">
-                  <div class="container">
-              <nav class="navbar bluelogo">
-                    <ul class="nav navbar-nav">
-                            <img src="assets/logoblue.png">
-                            </ul>
-                    <ul class="nav navbar-nav" style="float:right;">
-                      <li><a href="#">CONTACT US</a></li>
-                      <li><a href="#">TERMS</a></li>
-                      <li><a href="#">PRIVACY</a></li>
-                    </ul>
-                  </nav></div>
-                  </div>
-  </div>
- 
-</div>
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+        aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img src="assets/logoblue.png" height="40" class="logo">
+      </a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
 
-</body>
-</html>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a>Buy</a>
+        </li>
+        <li>
+          <a>Rent</a>
+        </li>
+        <li>
+          <a>Mortage</a>
+        </li>
+        <li>
+          <a>Login</a>
+        </li>
+        <li class="active btn-blue">
+          <a>Sign In
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!--/.nav-collapse -->
+  </div>
+</nav>
+<div class="header-media-wrap">
+  <div class="header-media">
+    <div class="banner-parallax ">
+      <div class="banner-bg-wrap" style="transform: translate3d(0px, 51.6px, 0px);">
+        <div class="banner-inner" style="background-image: url(assets/bgimg.png);"></div>
+      </div>
+    </div>
+    <div class="banner-caption">
+      <h1>Discover your next adventure</h1>
+      <h2 class="banner-sub-title">Get started in few clicks</h2>
+      <div class="banner-search-main">
+        <form autocomplete="off" class="form-inline">
+          <div class="form-group">
+            <div class="search input-search input-icon col-md-9">
+              <input type="text" class="form-control" id="search" placeholder="Search..." (keyup)='keyUp.next($event)'>
+              <div class="auto-complete">
+                <ul>
+                  <li>
+                    <a class="heading">Awesome Sky Diving ,
+                      <small class="small-heading">New Delhi</small>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="heading">Aaronsburg, PA ,
+                      <small class="small-heading">New Delhi</small>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="heading">Aaronsburg, PA ,
+                      <small class="small-heading">New Delhi</small>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="search-btn col-md-3">
+              <button class="btn btn-secondary">Search</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="col-md-3">
+        <h4>Safe Neighborhoods</h4>
+        <h6>New York, NY</h6>
+      </div>
+      <div class="col-md-9"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="col-md-3">
+        <img src="assets/img2.jpg" class="img">
+        <div class="border">
+          <h4>$ 3,700,000</h4>
+          <h6>Upper East Side ,New York,NY</h6>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <img src="assets/img2.jpg" class="img">
+        <div class="border">
+          <h4>$ 3,700,000</h4>
+          <h6>Upper East Side ,New York,NY</h6>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <img src="assets/img2.jpg" class="img">
+        <div class="border">
+          <h4>$ 3,700,000</h4>
+          <h6>Upper East Side ,New York,NY</h6>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <img src="assets/img2.jpg" class="img">
+        <div class="border">
+          <h4>$ 3,700,000</h4>
+          <h6>Upper East Side ,New York,NY</h6>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="col-md-3">
+        <h4>Safe Neighborhoods</h4>
+        <h6>New York, NY</h6>
+      </div>
+      <div class="col-md-9"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="col-md-3">
+        <img src="assets/img2.jpg" class="img">
+        <div class="border">
+          <h4>$ 3,700,000</h4>
+          <h6>Upper East Side ,New York,NY</h6>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <img src="assets/img2.jpg" class="img">
+        <div class="border">
+          <h4>$ 3,700,000</h4>
+          <h6>Upper East Side ,New York,NY</h6>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <img src="assets/img2.jpg" class="img">
+        <div class="border">
+          <h4>$ 3,700,000</h4>
+          <h6>Upper East Side ,New York,NY</h6>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <img src="assets/img2.jpg" class="img">
+        <div class="border">
+          <h4>$ 3,700,000</h4>
+          <h6>Upper East Side ,New York,NY</h6>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

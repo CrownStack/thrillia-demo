@@ -31,7 +31,8 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.merchants$ = this.getAllMerchants()
+    this.merchants$ = this.getAllMerchants();
+    console.log(this.merchants$)
   }
 
   getAllMerchants(params?: any): Observable<Merchant[]> {
