@@ -14,25 +14,50 @@
             ]
         },
         {
-            "name": "Awesome Water Support",
+            "name": "Side river Biking",
             "address_city": "New Delhi",
             "address_state": "Delhi",
             "address_zip": 123,
             "website": "http://crownstack.com",
             "phone": 1234567890,
             "activities": [
-                "Water support"                
+                "Biking"                
             ]
         },
         {
-            "name": "Awesome Skating",
+            "name": "Biking and Swiming Tours",
             "address_city": "New Delhi",
             "address_state": "Delhi",
             "address_zip": 123,
             "website": "http://crownstack.com",
             "phone": 1234567890,
             "activities": [
-                "Skating"
+                "Swiming",
+                "Biking"
+            ]
+        },
+        {
+            "name": "Kayaking",
+            "address_city": "New Delhi",
+            "address_state": "Delhi",
+            "address_zip": 123,
+            "website": "http://crownstack.com",
+            "phone": 1234567890,
+            "activities": [
+                "Swiming",
+                "Kayaking"
+            ]
+        },
+        {
+            "name": "Rock Climbing",
+            "address_city": "New Delhi",
+            "address_state": "Delhi",
+            "address_zip": 123,
+            "website": "http://crownstack.com",
+            "phone": 1234567890,
+            "activities": [
+                "Rock Climbing",
+                "Biking"
             ]
         }
     ]
